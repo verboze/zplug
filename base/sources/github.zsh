@@ -64,7 +64,7 @@ __zplug::sources::github::get_url()
             ;;
         SSH | ssh)
             # git@github.com:%s.git
-            url_format="git@github.com:${repo}.git"
+            url_format="git://github.com/${repo}.git"
             ;;
     esac
 
